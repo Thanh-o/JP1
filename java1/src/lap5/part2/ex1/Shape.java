@@ -1,21 +1,12 @@
-package lap5.part2;
+package lap5.part2.ex1;
 
 public abstract class Shape {
-    public String color;
-
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
+    private String color;
 
     public Shape(String color) {
 
         this.color = color;
     }
-
 
     @Override
     public String toString() {

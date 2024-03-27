@@ -12,18 +12,20 @@ public class Cylinder extends Circle {
         return height;
     }
 
+    public double getArea() {
+        return 2 * Math.PI * getRadius() * (getRadius() + height);
+    }
+
     public double getVolume() {
         return getArea() * height;
     }
 
     @Override
-    public double getArea() {
-        return 2 * Math.PI * getRadius() * (getRadius() + height);
+    public String toString() {
+        return "Cylinder{" + super.toString()+
+                "height=" + height +
+                '}';
     }
 
-    @Override
-    public String toString() {
-        return "Cylinder[" + super.toString() + ",height=" + height + "]";
-    }
 }
 

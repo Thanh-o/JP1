@@ -21,8 +21,12 @@ public class Circle {
         return Math.PI * radius * radius;
     }
 
+    @Override
     public String toString() {
-        return "Circle[radius=" + radius + ",color=" + color + "]";
+        return "Circle{" +
+                "radius=" + radius +
+                ", color='" + color + '\'' +
+                '}';
     }
 }
 
