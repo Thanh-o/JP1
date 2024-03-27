@@ -1,16 +1,31 @@
 package lap5.part2;
 
 public abstract class Shape {
-    protected String color;
+    public String color;
 
-    public Shape(String color) {
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
         this.color = color;
     }
 
-    public abstract double getArea();
+    public Shape(String color) {
+
+        this.color = color;
+    }
+
 
     @Override
-    abstract public String toString();
-}
+    public String toString() {
+        return "Shape{" +
+                "color='" + color + '\'' +
+                '}';
+    }
+
+   public abstract double getArea();
 
 }
+
+
