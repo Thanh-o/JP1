@@ -1,4 +1,4 @@
-package session2;
+package session1;
 
 public class Person extends Animal {
     //Field

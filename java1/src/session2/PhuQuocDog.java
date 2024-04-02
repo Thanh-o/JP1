@@ -1,4 +1,4 @@
-package session3;
+package session2;
 
 public class PhuQuocDog extends Dog{
     public PhuQuocDog(String name, int age, int height) {

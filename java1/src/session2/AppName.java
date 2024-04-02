@@ -1,4 +1,4 @@
-package session3;
+package session2;
 
 public class AppName {
     public static void main(String[] args){

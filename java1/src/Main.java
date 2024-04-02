@@ -1,4 +1,4 @@
-import session2.Person;
+import session1.Person;
 public class Main {
     public static void main(String[] agrs){
         Person newName = new Person();

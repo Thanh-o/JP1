@@ -1,14 +1,21 @@
-package session3;
+package session2;
 
-public class Cat extends Animal{
+public class Duck extends Animal{
     private int age;
     private int height;
+    private int swim;
 
+    public Duck(int age, int height, int swim) {
+        this.age = age;
+        this.height = height;
+        this.swim = swim;
+    }
 
-    public Cat(String name, int age, int height) {
+    public Duck(String name, int age, int height, int swim) {
         super(name);
         this.age = age;
         this.height = height;
+        this.swim = swim;
     }
 
     public int getAge() {
@@ -27,12 +34,20 @@ public class Cat extends Animal{
         this.height = height;
     }
 
+    public int getSwim() {
+        return swim;
+    }
+
+    public void setSwim(int swim) {
+        this.swim = swim;
+    }
+
     @Override
     public String getAnimalName() {
-        return "Cat";
+        return "Duck";
     }
     public static void main(String []args){
-        Cat quick = new Cat("Quick",5,12);
+        Duck quick = new Duck("Quick",5,12,5);
         quick.getAnimalName();
         System.out.println("Name: " +quick.getName());
         System.out.println("animal name: " +quick.getAnimalName());
@@ -40,5 +55,6 @@ public class Cat extends Animal{
 
         System.out.println("Age: " +quick.getAge());
         System.out.println("Height: " +quick.getHeight());
+        System.out.println("Height: " +quick.getSwim());
     }
 }

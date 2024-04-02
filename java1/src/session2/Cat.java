@@ -1,15 +1,12 @@
-package session3;
+package session2;
 
-public class Dog  extends Animal {
-    private int age ;
+public class Cat extends Animal{
+    private int age;
     private int height;
 
-    public Dog(String name,int age, int height) {
-        //Gọi tới constructor của lớp Animal
-        //Giá trị của Feild trong lớp cha sẽ được gán
-        //Constructor public Animal(String name) sẽ được gọi và gán gt
+
+    public Cat(String name, int age, int height) {
         super(name);
-        //Sau đó giá trị Feild trong lớp con mới được gán
         this.age = age;
         this.height = height;
     }
@@ -30,14 +27,18 @@ public class Dog  extends Animal {
         this.height = height;
     }
 
-    @Override// Thực hiện triển khai phương thức abstract
+    @Override
     public String getAnimalName() {
-        return "Dog";
+        return "Cat";
     }
     public static void main(String []args){
-        Dog quick = new Dog("Quick",5,12);
+        Cat quick = new Cat("Quick",5,12);
         quick.getAnimalName();
         System.out.println("Name: " +quick.getName());
         System.out.println("animal name: " +quick.getAnimalName());
+        System.out.println("=======================");
+
+        System.out.println("Age: " +quick.getAge());
+        System.out.println("Height: " +quick.getHeight());
     }
 }
