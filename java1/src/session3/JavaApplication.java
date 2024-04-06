@@ -22,7 +22,7 @@ public class JavaApplication {
      * Throw và Throws
      * Từ khóa throw trong java được sử dụng để ném ra 1 ngoại lệ(exception) cụ thể
      * cta có thể ném ra 2 ngoại lệ check cà uncheck trong java bằng từ khóa là throw
-     * Từ khóa throw chủ yếu được sử dungj để ném ra ngoại lệ tùy chỉnh(ngoại lệ do người dùng định nghĩa)
+     * Từ khóa throw chủ yếu được sử dung để ném ra ngoại lệ tùy chỉnh(ngoại lệ do người dùng định nghĩa)
      * Sau throw là 1 hoặc nhiều instance
      * Không thể throw nhiều exceptions
      * Từ khóa throws
