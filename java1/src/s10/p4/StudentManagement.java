@@ -9,7 +9,7 @@ public class StudentManagement {
         Scanner scanner = new Scanner(System.in);
         int choice;
         for (int i = 1;i<=8; i++){
-            System.out.println("1. Add Students");
+            System.out.println("\n1. Add Students");
             System.out.println("2. Update a Student");
             System.out.println("3. Delete a Student");
             System.out.println("4. Search Students");

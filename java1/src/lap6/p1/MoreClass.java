@@ -1,4 +1,4 @@
-package lap6;
+package lap6.p1;
 
 public class MoreClass {
     public static void main(String[] args){

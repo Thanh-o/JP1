@@ -1,4 +1,4 @@
-package lap6;
+package lap6.p1;
 
 public class UncheckedException {
     public UncheckedException(){}
